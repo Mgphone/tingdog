@@ -1,0 +1,149 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    text-align: left;
+  /* padding-bottom: 30px; */
+}
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.bigtitlefont{
+font-family: 'Montserrat', sans-serif;
+line-height: 1.5;
+font-weight: 900;
+  color: white;
+}
+/* color section */
+.colorsection{
+    background-color: #ff4c68;
+    color:white;
+}
+.whitesection{
+  background-color: white;
+
+}
+/* title section */
+
+
+.container-fluid {
+  padding: 3% 15%;
+  /* margin-bottom: 22px; */
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navlink {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.imagerotate {
+  transform: rotate(25deg);
+  width: 60%;
+  /* position:absolute; */
+  right: 30%;
+}
+
+.keepleft {
+  padding-left: 5rem;
+}
+
+/* features section */
+#features {
+  /* margin:30px auto; */
+
+  margin-top: 3rem;
+  padding: 7% 15%;
+    /* testimonial section */
+}
+
+.middlecont {
+  /* margin:13% auto; */
+
+  padding: 5%;
+}
+
+.middlecont p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-images {
+  width: 20%;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/* press section */
+
+.press-logo {
+  width: 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta section */
+/* call to action */
+/* If i am using h3.. and when shrink in mobile is not good!! */
+#cta {
+  font-size: 3rem;
+  /* padding:40px 200px; */
+  padding: 3% 15%;
+}
+
+/* #cta h3  {
+
+
+} */
+/* footer */
+#footer {
+  background-color: #fff;
+  padding: 6%;
+}
+
+@media (max-width:1028px) {
+  .title {
+    text-align: center;
+  }
+
+  .imagerotate {
+    transform: rotate(0);
+  }
+}
